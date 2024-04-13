@@ -242,7 +242,6 @@ public class SocialMediaController {
         if (message.getMessage_text().length() > 255) {
             throw new IllegalArgumentException("Message text cannot exceed 255 characters.");
         }
-        // Add any additional validation as needed
     }
 
 }
