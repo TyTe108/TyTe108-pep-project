@@ -235,6 +235,7 @@ public class SocialMediaController {
     }
 
     // Validate message content (assuming message_text length is the primary concern)
+    //Turns out I don't need this anymore but I will keep it here for now
     private void validateMessage(Message message) throws IllegalArgumentException {
         if (message.getMessage_text() == null || message.getMessage_text().isEmpty()) {
             throw new IllegalArgumentException("Message text cannot be empty.");
